@@ -11,20 +11,52 @@
     <div class="container">
       <h1>What are your favorite things?</h1>
       <form id="add">
-        <div class="row">
-          <div class="col-md-6">
+        <div class="row" id="row1">
+          <div class="col-md-5">
             <div class="form-group">
               <label for="firstName">First Name</label>
               <input id="firstName" class="form-control" type="text">
             </div>
           </div> 
-          <div class="col-md-6">
+          <div class="col-md-5">
             <div class="form-group">
               <label for="lastName">Last Name</label>
               <input id="lastName" class="form-control" type="text">
             </div>
+          </div>
+          <div class="col-md-2">
+            <div class="radio">
+              <label>
+                <input type="radio" name="gender" value="male"> Male
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gender" value="female"> Female
+              </label>
+            </div>
           </div>   
-        </row> 
+        </div>
+        <div class="row" id="row2">
+          <div class="col-md-2">
+            <label for="favoriteSport">Favorite sport</label>
+            <select class="form-control" id="favoriteSport">
+              <option value="1">Basketball</option>
+              <option value="2">American Football</option>
+              <option value="3">Baseball</option>
+              <option value="4">Soccer</option>
+              <option value="5">Hockey</option>
+              <option value="6">Cricket</option>
+              <option value="7">Tennis</option>
+              <option value="8">Volleyball</option>
+              <option value="9">Swimming</option>
+              <option value="10">Track</option>
+              <option value="11">Golf</option>
+              <option value="12">Rugby</option>
+            </select>
+          </div>         
+        </div>
+
         
         
         
